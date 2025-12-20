@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Elmahrosa – Sovereign Digital Transformation Portal
 
-This contains everything you need to run your app locally.
+Official public website for **Elmahrosa International / TEOS Egypt**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1l7BldOVjtlcG3EkdJ6hJVsH988TWXFoa
+## Principles
+- Sovereignty-first architecture
+- Compliance by design
+- No token speculation
+- Government-grade infrastructure
 
-## Run Locally
+## Run locally
+npm install
+npm run dev
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy
+npm run build
+Upload /dist to hosting provider.
